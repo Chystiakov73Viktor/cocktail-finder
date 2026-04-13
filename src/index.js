@@ -1,13 +1,16 @@
 import {
+  fetchData,
+  clearResults,
+  BASE_URL,
   getrefs,
   handleFetchButtonClick,
   handleModalAction,
   handlePaginationClick,
   renderCards,
 } from './helpers';
-import { fetchData, clearResults, BASE_URL } from './helpers';
 
 const refs = getrefs();
+
 const pageCache = {};
 let currentPageQuery = '';
 const fetchButton = document.getElementById('fetchButton');
@@ -50,7 +53,7 @@ fetchButton.addEventListener(
       fetchIngredients,
       queryRef,
       currentPageRef,
-      errorMessage, 
+      errorMessage,
       'ingredients'
     )
 );

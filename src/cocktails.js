@@ -20,7 +20,7 @@ const queryRef = { query: '' };
 
 async function fetchCocktails() {
   const url = `${BASE_URL}cocktails/search/`;
-  const params = { f: queryRef.query, page: currentPageRef.currentPage };
+  const params = { f: queryRef.query };
 
   clearResults(refs.listCoctails);
 
