@@ -1,15 +1,15 @@
 {
-  "name": "parcel-project-template",
+  "name": "cocktail-finder",
   "version": "2.0.0",
-  "description": "",
-  "homepage": "https://Chystiakov73Viktor.github.io/test-marcup",
+  "description": "Cocktail Finder app",
+  "homepage": "https://Chystiakov73Viktor.github.io/cocktail-finder",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /test-marcup/"
+    "build": "parcel build src/*.html --public-url /cocktail-finder/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chystiakov73Viktor/test-marcup.git"
+    "url": "git+https://github.com/Chystiakov73Viktor/cocktail-finder.git"
   },
   "license": "ISC",
   "dependencies": {
